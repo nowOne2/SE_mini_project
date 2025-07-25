@@ -9,7 +9,7 @@
 	반환값    : AddBikeUI* -> boundary class
 */
 AddBikeUI* AddBike::run() {
-	AddBikeUI* addBikeUI = new AddBikeUI(this); //control Ŭ������ boundary Ŭ������ ���� �� �����ڷ� control Ŭ������ ����
+	AddBikeUI* addBikeUI = new AddBikeUI(this); //control 클래스가 boundary 클래스를 생성 후 생성자로 control 클래스를 주입
 	addBikeUI->startInterface();
 
 	return addBikeUI;
