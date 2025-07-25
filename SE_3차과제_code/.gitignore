@@ -1,0 +1,11 @@
+# .gitignore
+.vs/
+x64/
+Debug/
+*.suo
+*.user
+*.VC.db
+*.opendb
+*.exe
+*.obj
+*.log
